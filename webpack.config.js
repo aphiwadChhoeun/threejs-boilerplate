@@ -6,7 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const env = process.env.NODE_ENV;
 
 module.exports = {
-  entry: './app/index.js',
+  entry: './app/scripts/index.js',
 
   mode: env,
 
